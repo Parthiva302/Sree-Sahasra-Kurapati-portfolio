@@ -1,10 +1,5 @@
 // Wait until DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
-  // Initialize Lucide icons
-  if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
-  }
-
   // Register GSAP ScrollTrigger plugin
   gsap.registerPlugin(ScrollTrigger);
 
