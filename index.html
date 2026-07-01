@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sree Sahasra Kurapati | Premium Portfolio</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Sree Sahasra Kurapati, a Computer Science Engineering student passionate about AI, startups, open source, and web development.">
+  <meta name="keywords" content="Sree Sahasra Kurapati, CS Student, AI, ML, Web Developer, Startups, Open Source">
+  
+  <!-- CSS Styling -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Custom Cursor Glow -->
+  <div class="custom-cursor-glow" id="customCursorGlow"></div>
+  <div class="custom-cursor-dot" id="customCursorDot"></div>
+
+  <!-- Animated Background Grid -->
+  <div class="background-grid"></div>
+  <div class="background-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-box">SK</span>
+        <span class="logo-text">Sree Sahasra Kurapati</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="Sree_Sahasra_Kurapati_Resume.pdf" download class="btn-magnetic resume-btn">
+          <span>Resume</span>
+          <i data-lucide="download"></i>
+        </a>
+      </div>
+      <button class="mobile-nav-toggle" aria-label="Toggle Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Hero Left -->
+        <div class="hero-content">
+          <div class="greeting-badge animate-fade-up">
+            <span class="emoji">👋</span>
+            <span class="text">Hello, I'm</span>
+          </div>
+          <h1 class="hero-title animate-split-text">
+            Sree Sahasra <span class="accent-text">Kurapati</span>
+          </h1>
+          <p class="hero-subtitle animate-fade-up">
+            Computer Science Engineering Student
+          </p>
+          <p class="hero-intro animate-fade-up">
+            Passionate about Startups • Software Development • AI • Open Source
+          </p>
+          <p class="hero-desc animate-fade-up" style="color: var(--text-secondary); margin-bottom: 2rem; max-width: 90%; line-height: 1.6; font-size: 1.1rem;">
+            I am passionate about software engineering, startups, innovation, AI, and entrepreneurship. I enjoy building meaningful digital experiences, collaborating with creative minds, and continuously improving my technical and communication skills.
+          </p>
+          <div class="hero-ctas animate-fade-up">
+            <a href="Sree_Sahasra_Kurapati_Resume.pdf" download class="btn-magnetic btn-primary">
+              <span>Download Resume</span>
+              <i data-lucide="arrow-down-to-line"></i>
+            </a>
+            <a href="#contact" class="btn-magnetic btn-secondary">
+              <span>Contact Me</span>
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+          
+          <!-- Social Icons -->
+          <div class="hero-socials animate-fade-up">
+            <a href="https://github.com/Sahasra-evolves" target="_blank" class="social-icon btn-magnetic" aria-label="GitHub">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sree-sahasra-kurapati-248924375/" target="_blank" class="social-icon btn-magnetic" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="mailto:sreesahasra@gmail.com" class="social-icon btn-magnetic" aria-label="Email">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right -->
+        <div class="hero-visual animate-scale-in">
+          <div class="blob-wrapper">
+            <div class="visual-blob"></div>
+          </div>
+          <div class="hero-glass-container card-spotlight">
+            <div class="vignette-overlay"></div>
+            <img src="window_silhouette.jpg" alt="Window Silhouette of Sree Sahasra Kurapati" class="hero-image">
+            <div class="particles-container" id="heroParticles"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Floating Stats Section -->
+    <section class="stats-section">
+      <div class="stats-container">
+        <!-- Stat Card 1 -->
+        <div class="stat-card glass-card card-spotlight animate-fade-up">
+          <div class="stat-icon"><i data-lucide="graduation-cap"></i></div>
+          <div class="stat-number">9.80</div>
+          <div class="stat-desc">CGPA</div>
+        </div>
+        <!-- Stat Card 2 -->
+        <div class="stat-card glass-card card-spotlight animate-fade-up">
+          <div class="stat-icon"><i data-lucide="building"></i></div>
+          <div class="stat-number">1</div>
+          <div class="stat-desc">Organization</div>
+        </div>
+        <!-- Stat Card 3 -->
+        <div class="stat-card glass-card card-spotlight animate-fade-up">
+          <div class="stat-icon"><i data-lucide="layers"></i></div>
+          <div class="stat-number">2+</div>
+          <div class="stat-desc">Projects</div>
+        </div>
+        <!-- Stat Card 4 -->
+        <div class="stat-card glass-card card-spotlight animate-fade-up">
+          <div class="stat-icon"><i data-lucide="award"></i></div>
+          <div class="stat-number">2+</div>
+          <div class="stat-desc">Certifications</div>
+        </div>
+        <!-- Stat Card 5 -->
+        <div class="stat-card glass-card card-spotlight animate-fade-up">
+          <div class="stat-icon"><i data-lucide="code-2"></i></div>
+          <div class="stat-number">3</div>
+          <div class="stat-desc">Languages</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Get to know me better</h2>
+      </div>
+      
+      <div class="about-grid">
+        <!-- Column 1: Info -->
+        <div class="about-info-col">
+          <p class="about-text">
+            I am a Computer Science Engineering student at The National Institute of Engineering, Mysore, with a CGPA of 9.80.
+          </p>
+          <p class="about-text">
+            I am passionate about startups, entrepreneurship, software development, and AI. I enjoy solving challenging problems, collaborating with innovative people, and continuously learning new technologies.
+          </p>
+          <p class="about-text">
+            My interests include software engineering, web development, open source, problem solving, communication, and leadership.
+          </p>
+          <a href="Sree_Sahasra_Kurapati_Resume.pdf" download class="btn-magnetic btn-primary">
+            <span>Download Resume</span>
+            <i data-lucide="arrow-down-to-line"></i>
+          </a>
+        </div>
+
+        <!-- Column 2: Photo Centerpiece -->
+        <div class="about-photo-col animate-scale-in">
+          <div class="photo-frame-wrapper card-spotlight">
+            <div class="photo-glow-border"></div>
+            <img src="window_silhouette.jpg" alt="Sree Sahasra Kurapati Silhouette Centrepiece" class="about-photo">
+          </div>
+        </div>
+
+        <!-- Column 3: Cards -->
+        <div class="about-cards-col">
+          <!-- Card 1 -->
+          <div class="about-detail-card glass-card card-spotlight">
+            <div class="detail-icon"><i data-lucide="book-open"></i></div>
+            <div class="detail-info">
+              <h3>NIE Mysore</h3>
+              <p>Bachelor of Engineering<br>Computer Science Engineering<br>CGPA: 9.80 | Sep 2025 – Present</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="about-detail-card glass-card card-spotlight">
+            <div class="detail-icon"><i data-lucide="graduation-cap"></i></div>
+            <div class="detail-info">
+              <h3>Unacademy</h3>
+              <p>Intermediate (MPC)<br>Vijayawada | 2023 – 2025</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="about-detail-card glass-card card-spotlight">
+            <div class="detail-icon"><i data-lucide="code"></i></div>
+            <div class="detail-info">
+              <h3>Focus</h3>
+              <p>Software Development, Artificial Intelligence, Web Development, Problem Solving, Open Source</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="about-detail-card glass-card card-spotlight">
+            <div class="detail-icon"><i data-lucide="compass"></i></div>
+            <div class="detail-info">
+              <h3>Interests</h3>
+              <p>Startups, Innovation, Entrepreneurship, Leadership, Communication, Technology</p>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="about-detail-card glass-card card-spotlight">
+            <div class="detail-icon"><i data-lucide="target"></i></div>
+            <div class="detail-info">
+              <h3>Goals</h3>
+              <p>To build impactful software solutions that solve real-world problems while contributing to startups, innovation, and the open-source community.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="section-header">
+        <span class="section-tag">My Skills</span>
+        <h2 class="section-title">What I am good at</h2>
+      </div>
+
+      <div class="skills-dashboard-grid">
+        <!-- Programming -->
+        <div class="skill-category-card glass-card card-spotlight animate-fade-up">
+          <div class="skill-category-header">
+            <i data-lucide="code"></i>
+            <h3>Programming</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li><span class="bullet"></span> Python</li>
+            <li><span class="bullet"></span> C</li>
+            <li><span class="bullet"></span> C++</li>
+          </ul>
+        </div>
+
+        <!-- Core Skills -->
+        <div class="skill-category-card glass-card card-spotlight animate-fade-up">
+          <div class="skill-category-header">
+            <i data-lucide="terminal"></i>
+            <h3>Core Skills</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li><span class="bullet"></span> Data Structures</li>
+            <li><span class="bullet"></span> Algorithms</li>
+            <li><span class="bullet"></span> Problem Solving</li>
+          </ul>
+        </div>
+
+        <!-- Developer Tools -->
+        <div class="skill-category-card glass-card card-spotlight animate-fade-up">
+          <div class="skill-category-header">
+            <i data-lucide="wrench"></i>
+            <h3>Developer Tools</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li><span class="bullet"></span> Git</li>
+            <li><span class="bullet"></span> GitHub</li>
+            <li><span class="bullet"></span> VS Code</li>
+          </ul>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skill-category-card glass-card card-spotlight animate-fade-up">
+          <div class="skill-category-header">
+            <i data-lucide="users"></i>
+            <h3>Professional Skills</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li><span class="bullet"></span> Communication</li>
+            <li><span class="bullet"></span> Networking</li>
+            <li><span class="bullet"></span> Creative Writing</li>
+            <li><span class="bullet"></span> Team Collaboration</li>
+            <li><span class="bullet"></span> Leadership</li>
+            <li><span class="bullet"></span> Public Speaking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section class="experience-section" id="experience">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Experience & Roles</h2>
+      </div>
+
+      <div class="experience-layout">
+        <!-- Timeline Side -->
+        <div class="timeline-container">
+          <div class="timeline-line-wrapper">
+            <svg class="timeline-svg" width="6" height="100%">
+              <line class="timeline-svg-bg" x1="3" y1="0" x2="3" y2="100%" />
+              <line class="timeline-svg-line" x1="3" y1="0" x2="3" y2="0" id="glowingTimelineLine" />
+            </svg>
+          </div>
+
+          <div class="timeline-items">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Oct 2025 - Present</div>
+              <div class="timeline-card glass-card card-spotlight">
+                <div class="timeline-card-header">
+                  <h3>Onyx E-Cell</h3>
+                  <span class="role-badge">Member</span>
+                </div>
+                <div class="role-responsibilities">
+                  <p class="role-resp-title">Responsibilities:</p>
+                  <ul class="role-desc-list">
+                    <li>Participating in entrepreneurship and startup initiatives.</li>
+                    <li>Collaborating with student innovators.</li>
+                    <li>Organizing networking events.</li>
+                    <li>Developing leadership and communication skills.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Strengths Sidebar Side -->
+        <div class="strengths-sidebar animate-fade-up">
+          <div class="glass-card strengths-card card-spotlight">
+            <div class="strengths-header">
+              <i data-lucide="shield"></i>
+              <h3>Strengths</h3>
+            </div>
+            <div class="strengths-grid">
+              <span class="strength-tag">Strong Analytical Thinking</span>
+              <span class="strength-tag">Problem Solving</span>
+              <span class="strength-tag">Communication</span>
+              <span class="strength-tag">Leadership</span>
+              <span class="strength-tag">Team Collaboration</span>
+              <span class="strength-tag">Creative Thinking</span>
+              <span class="strength-tag">Quick Learner</span>
+              <span class="strength-tag">Adaptability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Certifications Section -->
+    <section class="certifications-section" id="certifications">
+      <div class="section-header">
+        <span class="section-tag">Certifications</span>
+        <h2 class="section-title">Credentials & Badges</h2>
+      </div>
+      
+      <div class="certifications-grid">
+        <div class="cert-card glass-card card-spotlight animate-fade-up">
+          <div class="cert-icon"><i data-lucide="award"></i></div>
+          <div class="cert-info">
+            <h3>Claude 101 Certification</h3>
+            <p class="cert-issuer">Anthropic AI Certification</p>
+          </div>
+        </div>
+        
+        <div class="cert-card glass-card card-spotlight animate-fade-up">
+          <div class="cert-icon"><i data-lucide="file-check"></i></div>
+          <div class="cert-info">
+            <h3>Be10X Certificate of Completion</h3>
+            <p class="cert-issuer">Skills Accelerator Program</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements-section" id="achievements">
+      <div class="section-header">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">Awards & Achievements</h2>
+      </div>
+
+      <div class="milestones-container">
+        <!-- Milestone 1 -->
+        <div class="milestone-card glass-card card-spotlight">
+          <div class="milestone-icon"><i data-lucide="trending-up"></i></div>
+          <div class="milestone-info">
+            <h3>Maintained CGPA of 9.80</h3>
+            <p class="milestone-meta">Academic Distinction</p>
+          </div>
+        </div>
+        <!-- Milestone 2 -->
+        <div class="milestone-card glass-card card-spotlight">
+          <div class="milestone-icon"><i data-lucide="shield-check"></i></div>
+          <div class="milestone-info">
+            <h3>Successfully completed Claude 101 Certification</h3>
+            <p class="milestone-meta">Credentials</p>
+          </div>
+        </div>
+        <!-- Milestone 3 -->
+        <div class="milestone-card glass-card card-spotlight">
+          <div class="milestone-icon"><i data-lucide="file-check"></i></div>
+          <div class="milestone-info">
+            <h3>Successfully completed Be10X Certificate</h3>
+            <p class="milestone-meta">Credentials</p>
+          </div>
+        </div>
+        <!-- Milestone 4 -->
+        <div class="milestone-card glass-card card-spotlight">
+          <div class="milestone-icon"><i data-lucide="users"></i></div>
+          <div class="milestone-info">
+            <h3>Active member of Onyx E-Cell</h3>
+            <p class="milestone-meta">Leadership & Entrepreneurship</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <!-- Left Column -->
+        <div class="contact-info">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get in touch</h2>
+          <p class="contact-desc">
+            I'm always open to discussing new opportunities, collaboration on open-source projects, or sharing ideas about the future of startups and artificial intelligence.
+          </p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon"><i data-lucide="mail"></i></div>
+              <div class="method-details">
+                <span>Email</span>
+                <a href="mailto:sreesahasra@gmail.com">sreesahasra@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon"><i data-lucide="github"></i></div>
+              <div class="method-details">
+                <span>GitHub</span>
+                <a href="https://github.com/Sahasra-evolves" target="_blank">github.com/Sahasra-evolves</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon"><i data-lucide="linkedin"></i></div>
+              <div class="method-details">
+                <span>LinkedIn</span>
+                <a href="https://www.linkedin.com/in/sree-sahasra-kurapati-248924375/" target="_blank">linkedin.com/in/sree-sahasra-kurapati-248924375</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="Sree_Sahasra_Kurapati_Resume.pdf" download class="btn-magnetic btn-primary resume-download-btn">
+            <span>Download Full Resume</span>
+            <i data-lucide="arrow-down-to-line"></i>
+          </a>
+        </div>
+
+        <!-- Right Column (Form) -->
+        <div class="contact-form-wrapper">
+          <form class="glass-card contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" required class="form-input" placeholder=" ">
+              <label for="name" class="form-label">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required class="form-input" placeholder=" ">
+              <label for="email" class="form-label">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" required class="form-input form-textarea" placeholder=" "></textarea>
+              <label for="message" class="form-label">Your Message</label>
+            </div>
+            <button type="submit" class="btn-magnetic btn-submit">
+              <span>Connect</span>
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container" style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+      <div class="footer-logo" style="text-align: center;">
+        <span class="logo-box">SK</span>
+        <span class="logo-text">Sree Sahasra Kurapati</span>
+        <p style="color: var(--text-secondary); margin-top: 0.5rem;">Computer Science Engineering Student</p>
+      </div>
+      
+      <div class="footer-links" style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+        <a href="#about" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--text-secondary)'">About</a>
+        <a href="#skills" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--text-secondary)'">Skills</a>
+        <a href="#experience" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--text-secondary)'">Experience</a>
+        <a href="#achievements" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--text-secondary)'">Achievements</a>
+        <a href="#contact" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--text-secondary)'">Contact</a>
+      </div>
+
+      <div class="footer-socials" style="display: flex; gap: 1rem;">
+        <a href="https://github.com/Sahasra-evolves" target="_blank" class="social-icon btn-magnetic" aria-label="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sree-sahasra-kurapati-248924375/" target="_blank" class="social-icon btn-magnetic" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+        <a href="mailto:sreesahasra@gmail.com" class="social-icon btn-magnetic" aria-label="Email">
+          <i data-lucide="mail"></i>
+        </a>
+      </div>
+
+      <p class="copyright">&copy; 2026 Sree Sahasra Kurapati. All Rights Reserved.</p>
+      
+      <!-- Back to top button positioned at the bottom right corner of the page normally via CSS -->
+      <button class="back-to-top btn-magnetic" id="backToTop" aria-label="Back to Top">
+        <i data-lucide="arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- GSAP Libraries CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  
+  <!-- Lenis Smooth Scroll CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+
+  <!-- Main Interaction Script -->
+  <script src="script.js"></script>
+</body>
+</html>
