@@ -268,17 +268,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  gsap.from(".projects-bento-grid .project-card", {
-    y: 60,
-    opacity: 0,
-    duration: 1.2,
-    stagger: 0.2,
-    ease: "power4.out",
-    scrollTrigger: {
-      trigger: ".projects-section",
-      start: "top 75%"
-    }
-  });
+
 
 
 
@@ -291,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
         attr: { y2: "100%" },
         ease: "none",
         scrollTrigger: {
-          trigger: ".timeline-container",
+          trigger: ".experience-section .timeline-container",
           start: "top 25%",
           end: "bottom 75%",
           scrub: true
@@ -300,35 +290,25 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
-  // --- 3D Hover Tilt Effect for Bento Project Cards ---
-  const projectCards = document.querySelectorAll(".projects-bento-grid .project-card");
-  projectCards.forEach((card) => {
-    card.addEventListener("mousemove", (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      
-      const xc = rect.width / 2;
-      const yc = rect.height / 2;
-      
-      const tiltX = (yc - y) / 18; // Max tilt degrees
-      const tiltY = (x - xc) / 18;
-      
-      gsap.to(card, {
-        transform: `perspective(1000px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(1.02, 1.02, 1.02)`,
-        duration: 0.3,
-        ease: "power2.out"
-      });
-    });
-    
-    card.addEventListener("mouseleave", () => {
-      gsap.to(card, {
-        transform: "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
-        duration: 0.5,
-        ease: "power2.out"
-      });
-    });
-  });
+  // --- Education Timeline Scrolling Line Drawing ---
+  const timelineLineEdu = document.getElementById("glowingTimelineLineEdu");
+  if (timelineLineEdu) {
+    gsap.fromTo(timelineLineEdu, 
+      { attr: { y2: "0%" } }, 
+      {
+        attr: { y2: "100%" },
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".education-section .timeline-container",
+          start: "top 25%",
+          end: "bottom 75%",
+          scrub: true
+        }
+      }
+    );
+  }
+
+
 
   // --- Back to Top Button ---
   const backToTop = document.getElementById("backToTop");
@@ -346,6 +326,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Initialize Lucide Icons
-  lucide.createIcons();
+
 });

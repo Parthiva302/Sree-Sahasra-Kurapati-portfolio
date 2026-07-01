@@ -661,7 +661,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- About Section --- */
 .about-section {
-  padding: 100px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -775,7 +775,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- Skills Section --- */
 .skills-section {
-  padding: 100px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -841,7 +841,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- Experience Timeline Section --- */
 .experience-section {
-  padding: 100px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -1028,7 +1028,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- Certifications Section --- */
 .certifications-section {
-  padding: 100px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -1084,7 +1084,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- Achievements Section --- */
 .achievements-section {
-  padding: 100px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -1140,7 +1140,7 @@ a, button, input, textarea, select, .btn-magnetic {
 
 /* --- Contact Section --- */
 .contact-section {
-  padding: 100px 0 160px;
+  padding: 60px 0 100px;
   position: relative;
   z-index: 1;
 }
@@ -1439,4 +1439,11 @@ a, button, input, textarea, select, .btn-magnetic {
   .timeline-date {
     left: 50px;
   }
+}
+
+
+.education-section {
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
 }
